@@ -8,6 +8,10 @@ body{
     height: 33px;
     margin-top: -10px;
 }
+#navbar-brand-dark1{
+    height: 33px;
+    margin-top: -10px;
+}
 .text-sobre{
     /* text-decoration: underline; */
     font-style: italic;
@@ -86,7 +90,7 @@ h1,h2,h3,h4,h6{
 .form-control {
     background-color:rgb(148, 222, 231);
 }
-form-control:hover{
+.form-control:hover{
     background-color:rgb(109, 196, 207);
 }
 /* Slide */
