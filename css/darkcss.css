@@ -1,0 +1,103 @@
+body{
+    font-family: 'Montserrat'
+}
+.navbar-cor{
+    background: #ffffff;
+}
+#navbar-brand-dark{
+    height: 33px;
+    margin-top: -10px;
+}
+.text-sobre{
+    /* text-decoration: underline; */
+    font-style: italic;
+}
+#row-text{
+    font-size: xx-large;
+    
+}
+h1,h2,h3,h4,h6{
+    font-family: Monteserrat, sans-serif;
+}
+.dark-drogas{
+    border: 6px solid #eee;
+    width: 100%;
+}
+/* footer */
+#footer{
+    background: #000;
+    padding: 0 0 30px 0;
+    color: #278563;
+    font-size: 14px;
+}
+#footer .footer-top{
+    background: #111;
+    padding: 60px 0 30px 0;
+}
+#footer .footer-top .footer info{
+    margin-bottom: 30px
+}
+#footer .footer-top .footer-info h3{
+    font-size: 34px;
+}
+#footer a:link, :visited{
+    list-style: none;
+    text-decoration:none;
+    color:#278563;
+}
+#footer .footer-top .footer-links ul a:hover{ 
+    color:#f4511c;
+}
+#footer .footer-top .footer-contact{
+    margin-bottom: 30px;
+}
+#footer .footer-top .footer-contact p{
+    line-height: 26px;
+}
+#footer .footer-top .footer-newsletter{
+    margin-bottom: 30px;
+}
+#footer .footer-top .footer-newsletter imput[type="email"]{
+    border:0;
+    padding: 6px 8px;
+    width: 65%;
+}
+#footer .footer-top .footer-newsletter imput[type="submit"]{
+    background:#f4511e;
+    border:0;
+    width: 35%;
+    padding: 6px 0px;
+    text-align: center;
+    color: #fff;
+    transition:0.3s;
+    cursor: pointer;
+}
+#footer .footr-top .footer-newsletter imput[type="submit"]:hover{
+    background: #13a456;
+}
+#footer .copyright{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #000000;
+    color: #f4511c;
+    margin: 0;
+}
+.form-control {
+    background-color:rgb(148, 222, 231);
+}
+form-control:hover{
+    background-color:rgb(109, 196, 207);
+}
+/* Slide */
+.item p{
+    color: #000;
+    font-size: 21pt;
+    margin-top: 50%;
+    margin-left:50%; 
+    text-align: left;
+}
+#army{
+    padding-bottom:50px; 
+}
+
