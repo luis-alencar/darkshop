@@ -8,10 +8,6 @@ body{
     height: 33px;
     margin-top: -10px;
 }
-#navbar-brand-dark1{
-    height: 33px;
-    margin-top: -10px;
-}
 .text-sobre{
     /* text-decoration: underline; */
     font-style: italic;
@@ -96,11 +92,15 @@ h1,h2,h3,h4,h6{
 /* Slide */
 .item p{
     color: #000;
-    font-size: 21pt;
-    margin-top: 50%;
-    margin-left:50%; 
-    text-align: left;
-}
+    /* font-size: 21pt; */
+    /* margin-top: 150%;*/
+    margin-left:-20%;
+    /* margin-right: 10%;*/
+    line-height: 200%;
+    line-break: inherit;
+
+    /* text-align: center;*/
+} 
 #army{
     padding-bottom:50px; 
 }
