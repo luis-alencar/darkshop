@@ -22,6 +22,10 @@ h1,h2,h3,h4,h6{
 .dark-drogas{
     border: 6px solid #eee;
     width: 100%;
+   
+}
+.licoment{
+    margin-bottom: 20px;
 }
 /* footer */
 #footer{
@@ -93,11 +97,12 @@ h1,h2,h3,h4,h6{
 .item p{
     color: #000;
     /* font-size: 21pt; */
-    /* margin-top: 150%;*/
-    margin-left:-20%;
+    margin-top: 150%;
+    /* margin-left:-20%; */
     /* margin-right: 10%;*/
     line-height: 200%;
     line-break: inherit;
+    line-clamp: 50%;
 
     /* text-align: center;*/
 } 
