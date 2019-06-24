@@ -92,6 +92,7 @@ h1,h2,h3,h4,h6{
 }
 .form-control:hover{
     background-color:rgb(109, 196, 207);
+
 }
 /* Slide */
 .item p{
@@ -104,3 +105,15 @@ h1,h2,h3,h4,h6{
 #army{
     padding-bottom:50px; 
 }
+.footer-contact a{
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  
+  .footer-contact a:hover {opacity: 1}
+
+/* .footer-contact a:hover{
+    color: #f4511c;
+    scale: 1.2;
+    transition-delay: 3s;
+} */
