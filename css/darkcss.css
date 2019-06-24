@@ -96,15 +96,10 @@ h1,h2,h3,h4,h6{
 /* Slide */
 .item p{
     color: #000;
-    /* font-size: 21pt; */
-    margin-top: 150%;
-    /* margin-left:-20%; */
-    /* margin-right: 10%;*/
-    line-height: 200%;
-    line-break: inherit;
-    line-clamp: 50%;
-
-    /* text-align: center;*/
+    font-size: 21pt;
+    margin-top: 50%;
+    margin-left:50%; 
+    text-align: left;
 } 
 #army{
     padding-bottom:50px; 
