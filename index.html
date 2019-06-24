@@ -40,9 +40,18 @@
             <li><a href="drogas.html">DROGAS</a></li>
             <li><a href="orgaos.html">ORGÃOS</a></li>
             <li><a href="sobre.html">SOBRE</a></li>
-            <li><a href="carinho.html" class="navbar-brand"><img id="navbar-brand-dark" src="img/carinhodarkshop.png"></a></li>
+            <li><a href="carinho.html" class="navbar-brand" data-toggle="tooltip" title="Carinho" data-placement="bottom">
+              <img id="navbar-brand-dark" src="img/carinhodarkshop.png"></a></li>
+
+</div>
+<script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();   
+    });
+    </script>
         </ul>
         </div>
+        
     </nav>
 <!-- Slide -->
                   <div id="army" id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -98,25 +107,34 @@
           <img class="dark-drogas" src="https://www.taurusarmas.com.br/assets/img/content/products/thumbs/product-246-photo-5_690x460.png" class="rounded" alt="">
           <h3 class="text-uppercase">PISTOLA TH40C</h3>
           <p>Ideal para o uso discreto</p>
+          <div class="licoment">
           <li>Calibre  .40 S&W</li>
           <li>Capacidade 11+1  e 15+1 </li>
           <li>Ação SA/DA</li>
+          </div>
+          <button type="submit" class="btn btn-primary btn btn-default btn-block text-uppercase">Ver Produto</button>
       </div>
       <div id="p04"  class="col-sm-4" text-center>
         <img class="dark-drogas" src="img/drogas/drogls.jpg" class="rounded" alt="">
         <h3 class="text-uppercase">20 Unidades de MD</h3>
         <p>Indicado para Festas</p>
+        <div class="licoment">
         <li>MDMA/MDA/MDE</li>
         <li>Envio Full</li>
         <li>Entrega em todo BR</li>
+      </div>
+      <button type="submit" class="btn btn-primary btn btn-default btn-block text-uppercase">Ver Produto</button>
     </div>
     <div id="p06" class="col-sm-4" text-center>
       <img class="dark-drogas" src="img/orgaos/coracao.jpg" class="rounded" alt="Drogas">
       <h3 class="text-uppercase">Coração</h3>
       <p>Você podera escolher a faixa etaria do orgão</p>
+      <div class="licoment">
           <li>Em urgencia o valor será aumentado em 50%</li>
           <li>Contamos com Medicos especializados</li>
           <li>Entregamos em qual parte do planeta</li>
+        </div>
+        <button type="submit" class="btn btn-primary btn btn-default btn-block text-uppercase">Ver Produto</button>
   </div>
   </div>
 </div>
@@ -148,14 +166,8 @@
               data-url="https://twitter.com/login?lang=pt" data-text="" data-count="horizontal" data-via="@Darkshop" data-lang="pt">Tweetar</a>
               <script type="text/javascript" src="http://platform.twitter.com/widgets.js">
               </script>
-              <div id="fb-root"></div>
-              <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.3">
-              </script>
-              </div>
-              <div class="fb-like" data-href="https://www.facebook.com/Darkshop-324207518508771/" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-
-              </div>
-
+              
+            </div>
               <div class="col-lg-3 col-md6 footer-newsletter">
               <h4>Nossa Newsletter</h4>
               <p>

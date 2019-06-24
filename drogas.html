@@ -32,9 +32,19 @@
             <li class="active"><a href="drogas.html">DROGAS</a></li>
             <li><a href="orgaos.html">ORGÃOS</a></li>
             <li><a href="sobre.html">SOBRE</a></li>
-            <li><a href="carinho.html" class="navbar-brand"><img id="navbar-brand-dark" src="img/carinhodarkshop.png"></a></li>
-        </ul>
-    </nav>
+            <li><a href="carinho.html" class="navbar-brand" data-toggle="tooltip" title="Carinho" data-placement="bottom">
+            <img id="navbar-brand-dark" src="img/carinhodarkshop.png"></a></li>
+      
+      </div>
+      <script>
+          $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+          });
+          </script>
+              </ul>
+              </div>
+              
+          </nav>
 <!-- PRODUTOS -->
         <div id="army" class="container"> 
             <div class="row">
@@ -102,7 +112,10 @@
                         </div>
                         <div class="col-lg-3 col-md-6 footer-contact">
                         <h4>Siga-nos</h4>
-                        <a href="#" class="twitter">     <i class="fa fa-twitter">          </i>    </a>
+                        <a href="http://twitter.com/share" class="twitter-share-button" 
+              data-url="https://twitter.com/login?lang=pt" data-text="" data-count="horizontal" data-via="@Darkshop" data-lang="pt">Tweetar</a>
+              <script type="text/javascript" src="http://platform.twitter.com/widgets.js">
+              </script>
                         <a href="#" class="instragram">  <i class="fa fa-instagram">        </i>    </a>
                         <a href="#" class="facebook">    <i class="fab fa-facebook-square"> </i>    </a>
                         </div>
